@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace StardewMods.ArchaeologyHouseContentManagementHelper.Framework
 {
-    public class Constants
+    internal enum MuseumTileClassification
     {
-        public const int GAME_OBJECT_LOST_BOOK_ID = 102;
-
-        public const string NPC_NAME_GUNTHER = "Gunther";
+        Valid = 0,
+        Limited,
+        Invalid
     }
 }
